@@ -1,0 +1,72 @@
+/* src/styles/Content.css */
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .search-container, .user-container {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-container {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-box {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: white;
+    color: black;
+  }
+  
+  .search-container i {
+    margin-right: 10px;
+    color: rgb(39, 33, 33);
+  }
+  
+  .user-container {
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+  }
+  
+  .user-container i {
+    font-size: 24px;
+  }
+  
+  .welcome-message {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+  }
+  

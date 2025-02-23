@@ -1,0 +1,146 @@
+/* Styling untuk Header */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .user-container i {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-container i {
+    margin-right: 8px;
+    font-size: 20px;
+  }
+  
+  .search-box {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+    font-size: 16px;
+  }
+  
+  /* Styling untuk Kontak Kami */
+  .kontak-container {
+    padding: 40px 20px;
+    background-color: #fff;
+  }
+  
+  .kontak-title {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  .kontak-description {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  /* Styling untuk Formulir Kontak */
+  .kontak-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: block;
+    color: #333;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  .form-input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  textarea.form-input {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  /* Styling untuk Tombol Kirim Pesan */
+  .submit-btn {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling untuk Informasi Kontak */
+  .contact-info-section {
+    margin-top: 60px;
+    text-align: center;
+  }
+  
+  .contact-info-section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  .contact-info-section p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* Responsivitas untuk layar kecil */
+  @media (max-width: 768px) {
+    .kontak-title {
+      font-size: 28px;
+    }
+  
+    .search-box {
+      width: 250px;
+    }
+  
+    .kontak-form {
+      width: 90%;
+      padding: 20px;
+    }
+  }
+  
