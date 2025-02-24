@@ -43,9 +43,6 @@ const Transaksi = () => {
     <div className="content">
       {/* Header Container */}
       <div className="header-container">
-        <div className="user-container">
-          <i className="fas fa-user"></i>
-        </div>
         <div className="search-container">
           <i className="fas fa-search"></i>
           <input type="text" className="search-box" placeholder="Search..." />

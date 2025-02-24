@@ -11,13 +11,10 @@ const Sidebar = () => {
       </div>
       <ul id="menu">
         <li>
-          <Link to="/"><i className="fas fa-home"></i> Home</Link>
+          <Link to="/content"><i className="fas fa-home"></i> Home</Link>
         </li>
         <li>
           <Link to="/aboutus"><i className="fas fa-info-circle"></i> Tentang Kami</Link>
-        </li>
-        <li>
-          <Link to="/konsultasi"><i className="fas fa-phone"></i> Konsultasi</Link>
         </li>
         <li>
           <Link to="/program"><i className="fas fa-tasks"></i> Program Kami</Link>
@@ -26,10 +23,7 @@ const Sidebar = () => {
           <Link to="/transaksi"><i className="fas fa-money-bill"></i> Transaksi</Link>
         </li>
         <li>
-          <Link to="/berita"><i className="fas fa-newspaper"></i> Berita</Link>
-        </li>
-        <li>
-          <Link to="/kontak"><i className="fas fa-envelope"></i> Kontak Kami</Link>
+          <Link to="/settings"><i className="fas fa-cog"></i> Settings</Link>
         </li>
       </ul>
       <div className="logout-container">
